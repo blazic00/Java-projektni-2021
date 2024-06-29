@@ -26,6 +26,7 @@ public class Main extends Application {
     public static GridPane gridPane;
 
     public static Handler handler;
+    private AnchorPane root;
 
     {
         try {

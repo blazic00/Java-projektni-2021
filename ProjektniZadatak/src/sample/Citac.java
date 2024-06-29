@@ -15,7 +15,7 @@ public class Citac {
     int lineNumber;
    private String readLineVozilo(int br) throws  FileNotFoundException,IOException{
 
-            FileReader readfile = new FileReader("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\KonfiguracioniFajl.txt");
+            FileReader readfile = new FileReader("C:\\Users\\danil\\JavaProjects\\Java-projektni-2021\\ProjektniZadatak\\KonfiguracioniFajl.txt");
             BufferedReader readbuffer = new BufferedReader(readfile);
             for (lineNumber = 1; lineNumber <= 3; lineNumber++) {
                 if (lineNumber == br) {
@@ -35,7 +35,7 @@ public class Citac {
     public File[] readLineVoz(Mapa mapa, GridPane root) throws FileNotFoundException,IOException
     {
 
-            File fajl = new File("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\Vozovi");
+            File fajl = new File("C:\\Users\\danil\\JavaProjects\\Java-projektni-2021\\ProjektniZadatak\\DodatniVozovi");
             File[] files=fajl.listFiles();
             Voz voz=null;
             for(int i=0;i<files.length;i++)

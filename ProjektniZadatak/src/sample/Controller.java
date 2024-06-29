@@ -98,10 +98,10 @@ public class Controller {
             {
 
                 int j=listaFajlovaZaVozove.size();
-                File fajl = new File("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\Vozovi");
+                File fajl = new File("ProjektniZadatak\\DodatniVozovi");
                 File[] files=fajl.listFiles();
                 while(true) {
-                    fajl = new File("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\Vozovi");
+                    fajl = new File("ProjektniZadatak\\DodatniVozovi");
                     files=fajl.listFiles();
                     Voz voz=null;
                     if(files.length>j) {

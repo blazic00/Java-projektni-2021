@@ -106,7 +106,7 @@ public class Voz extends Thread  {
     }
     public void serijalizacijaIstorijeKretanja()
     {
-        File fajl=new File("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\IstorijaKretanja");
+        File fajl=new File("ProjektniZadatak\\IstorijaKretanja");
         try {
             PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(fajl + File.separator + this.nazivVoza,true)));
             pw.println("Putovanje: "+putovanje);

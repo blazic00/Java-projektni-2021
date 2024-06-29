@@ -29,7 +29,7 @@ public class IstorijaKretanjaController {
 
     public void initialize()
     {
-        File file=new File("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\IstorijaKretanja");
+        File file=new File("IstorijaKretanja");
         String[] linije=file.list();
         ArrayList<LinijaTabele> lista=new ArrayList<>();
         for(String linija:linije)
@@ -46,7 +46,7 @@ public class IstorijaKretanjaController {
     public void prikazKretanja(){
         LinijaTabele fajl = TABELA.getSelectionModel().getSelectedItem();
         if(fajl!=null) {
-            File file = new File("C:\\Users\\mlade\\Desktop\\ProjektniZadatak\\IstorijaKretanja" + File.separator +fajl.getVrijednost());
+            File file = new File("IstorijaKretanja" + File.separator +fajl.getVrijednost());
             try {
                 List<String> linije=Files.readAllLines(file.toPath());
                 String rez="";
