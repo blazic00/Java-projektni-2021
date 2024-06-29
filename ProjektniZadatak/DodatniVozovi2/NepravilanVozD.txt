@@ -1,0 +1,1 @@
+0,2,Teretni vagon#500#V1A#300,Teretni vagon#550#V2A#300,A,D,0.7

@@ -1,0 +1,1 @@
+2,Putnicka lokomotiva#PARNI#200#L1A,Univerzalna lokomotiva#DIZEL#300#L2A,2,Putnicki vagon#restoran#200#V1A#Restoran u srcu Banjaluke,Putnicki vagon#sa lezajima#200#V2A#57,E,B,0.7

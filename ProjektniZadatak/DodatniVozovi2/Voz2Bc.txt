@@ -1,0 +1,1 @@
+2,Teretna lokomotiva#PARNI#200#L1A,Univerzalna lokomotiva#DIZEL#300#L2A,2,Teretni vagon#500#V1A#300,Teretni vagon#550#V2A#300,A,D,0.7
